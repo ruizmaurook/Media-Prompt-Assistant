@@ -72,47 +72,47 @@ Here is the complete prompt, designed to leverage Suno's architectural strengths
 
 **`Lyrics`:**
 
-[Intro]
+> [Intro]
 [Atmospheric] [Rain SFX]
-(A lone, distant arpeggio emerges from a wash of lush, dark synth pads. The sound of rain on a futuristic cityscape. A low, resonant hum builds tension.)
+> (A lone, distant arpeggio emerges from a wash of lush, dark synth pads. The sound of rain on a futuristic cityscape. A low, resonant hum builds tension.)
 (0:00 - 0:20)
 
-[Verse 1]
+> [Verse 1]
 [Driving Rhythm]
 (A classic gated reverb snare hits, establishing a steady 4/4 beat. A pulsating, rhythmic Moog-style bassline enters, providing the core groove. The main arpeggio becomes clearer and more defined, driving the track forward.)
 (0:21 - 1:00)
 
-[Chorus]
+> [Chorus]
 [Euphoric] [Cinematic]
 (The main synth lead melody enters—a soaring, melancholic, and powerful hook. Lush synth pads swell underneath, creating a wide, epic wall of sound. The harmony shifts to a more hopeful progression, evoking a panoramic view of a neon-lit metropolis.)
 (1:01 - 1:40)
 
-[Verse 2]
+> [Verse 2]
 [Introspective]
 (The main lead melody fades out, leaving the driving bassline and drum beat. A new, more intricate counter-melody from a crystalline-sounding synth appears, weaving in and out of the main arpeggio.)
 (1:41 - 2:20)
 
-[Bridge]
+> [Bridge]
 [Dreamy] [Instrumental Break]
 (The drums and bass drop out completely. Only the ethereal, reverb-heavy synth pads remain, holding a sustained chord. A gentle, filtered synth melody plays a simple, nostalgic phrase. A moment of calm and reflection before the climax.)
 (2:21 - 2:50)
 
-[Synth Lead Solo]
+> [Synth Lead Solo]
 [Epic] [Intense]
 (The drums and bass crash back in with explosive energy. A virtuosic and emotional synth lead solo takes center stage, full of pitch bends and expressive vibrato. The solo builds in intensity over a powerful chord progression.)
 (2:51 - 3:30)
 
-[Outro]
+> [Outro]
 [Fade Out] [Atmospheric]
 (The solo ends, echoing into the distance. The beat and bassline slowly fade away, leaving only the main arpeggio, which gradually gets filtered and slows down. The initial rain sound effect returns, bringing the track full circle as it fades to silence.)
 (3:31 - 4:00)
 
 **`Style`:**
-Instrumental 80s Synthwave, Darksynth, Cinematic, Retro-futuristic, Nostalgic, Driving, Melancholic. 120 BPM. Main instrumentation consists of a powerful Moog-style bassline, classic TR-808 style electronic drums with heavy gated reverb on the snare, lush analog synth pads, and a soaring, emotional lead synthesizer melody. Features prominent arpeggiated synth sequences. Production is polished with heavy hall reverb, stereo ping-pong delay, sidechain compression for a pumping effect, and a wide stereo image to create a deep, immersive soundscape. Analog warmth, subtle tape hiss.
+> Instrumental 80s Synthwave, Darksynth, Cinematic, Retro-futuristic, Nostalgic, Driving, Melancholic. 120 BPM. Main instrumentation consists of a powerful Moog-style bassline, classic TR-808 style electronic drums with heavy gated reverb on the snare, lush analog synth pads, and a soaring, emotional lead synthesizer melody. Features prominent arpeggiated synth sequences. Production is polished with heavy hall reverb, stereo ping-pong delay, sidechain compression for a pumping effect, and a wide stereo image to create a deep, immersive soundscape. Analog warmth, subtle tape hiss.
 
 
 **`Exclude Styles`:**
-No vocals, no singing, no rap, no spoken word, no human voice, acoustic instruments, acoustic guitar, piano, orchestra, choir, happy pop, folk, country.
+> No vocals, no singing, no rap, no spoken word, no human voice, acoustic instruments, acoustic guitar, piano, orchestra, choir, happy pop, folk, country.
 
 
 
@@ -172,6 +172,8 @@ By combining this detailed descriptive prompt with the strategic use of Firefly 
 
 ---
 
+Para generar la imagen, tomamos el prompt principal y luego podemos guiarnos con la explicación para terminar de configurar la preferencias del modelo tales como referencia, estilos, efectos, color y tono, iluminación y ángilo de cámara. Se adjunta la imagen generada en el repositorio de archivos del proyecto.
+
 # Técnicas de Fast Prompting
 
   La técnica aplicada para el uso de los chatbots será 'Zero Prompt Shooting', la cual es posible gracias al dataset cargado previamente, sin necesidad de explicarle al modelo cómo debe responder. Para lograr esto, se utilizó la técnica de 'Few Prompt Shooting' dentro del conjunto de datasets para ajustar el comportamiento del modelo, brindandole ejemplos de cómo el modelo interpreta los prompts y qué particularidades tiene cada uno al momento de utiizar cada modelo.
@@ -179,7 +181,7 @@ By combining this detailed descriptive prompt with the strategic use of Firefly 
 
 # Implementación
 
-  En el repositorio se encuentran disponibles para descargar los chatbots dentro de los archivos .zip. Los mismos deben correrse con el software 'Jupyter Notebook' ya que el código fue adaptado para funcionar allí.
+  En el repositorio se encuentran disponibles para descargar los archivos .ipynb perteneciente < los chatbots junto con los *datasets* dentro de los archivos .zip. Los mismos deben correrse con el software 'Jupyter Notebook' ya que el código se encuentra optimizado para el mismo.
 
 
   
