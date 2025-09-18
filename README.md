@@ -181,7 +181,25 @@ Para generar la imagen, tomamos el prompt principal y luego podemos guiarnos con
 
 # Implementación
 
-  En el repositorio se encuentran disponibles para descargar los archivos .ipynb perteneciente < los chatbots junto con los *datasets* dentro de los archivos .zip. Los mismos deben correrse con el software 'Jupyter Notebook' ya que el código se encuentra optimizado para el mismo.
+  En el repositorio se encuentran disponibles para descargar los archivos .ipynb perteneciente a los chatbots junto con los *datasets* dentro de los archivos .zip. Los mismos deben correrse con el software 'Jupyter Notebook' ya que el código se encuentra optimizado para el mismo.
+
+# Resultados
+
+Si bien el uso de los chatbots contribuye a generar entradas más complejas a partir de prompts sencillos, es preciso aclarar que a pesar de que los resultados que arroja nos permiten generar los archivos multimedia, es posible que necesitemos iterar el prompt para que la salida del modelo se adapte mejor a nuestras necesidades. Si el resultado satisface parcialmente nuestras necesidades, podemos intervenir en manera manual en el prompt ajustandolo a nuestras necesidades.
+
+# Conclusiones
+
+Para continuar con la optimización y desarrollo de las herramientas, es necesario revisar los datasets correspondientes a cada chatbot para asegurarnos de que los prompts que genera sean factibles de utilizar y no 'alucine' parámetros. En el caso del chatbot para Adobe Firefly Image 4 se puede ver que algunas de las características que arroja para optimizar nuestro prompt no están disponibles en el modelo aunque nos sirve como guía para seleccionar los parámetros que sí se encuentran en el modelo.
+
+# Referencias
+
+https://suno.com/
+https://help.suno.com/en
+https://www.sunometatagcreator.com/metatags-guide
+https://firefly.adobe.com/
+https://helpx.adobe.com/ar/firefly/user-guide.html
+https://www.adobe.com/cc-shared/assets/pdf/business/teams/sdk/firefly-image-model-4-guide.pdf
+
 
 
   
