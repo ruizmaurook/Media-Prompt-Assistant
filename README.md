@@ -188,7 +188,7 @@ Si bien el uso de los chatbots contribuye a generar entradas más complejas a pa
 
 # Conclusiones
 
-Para continuar con la optimización y desarrollo de las herramientas, es necesario revisar los datasets correspondientes a cada chatbot para asegurarnos de que los prompts que genera sean factibles de utilizar y no 'alucine' parámetros. En el caso del chatbot para Adobe Firefly Image 4 se puede ver que algunas de las características que arroja para optimizar nuestro prompt no están disponibles en el modelo aunque nos sirve como guía para seleccionar los parámetros que sí se encuentran en el modelo.
+Para continuar con la optimización y desarrollo de las herramientas, es necesario revisar los datasets correspondientes a cada chatbot para asegurarnos de que los prompts que genera sean factibles de utilizar y no 'alucine' parámetros. En el caso del chatbot para Adobe Firefly Image 4 se puede ver que algunas de las características que arroja para optimizar nuestro prompt no están disponibles en el modelo aunque nos sirve como guía para seleccionar los parámetros que sí se encuentran en el modelo. Con respecto al chatbot de Suno AI hay algunas palabras o características que las omite (por ejemplo, [Rain SFX] ), por lo cual es necesario revisar los datasets y continuar con la investigación y desarrollo.
 
 # Referencias
 
