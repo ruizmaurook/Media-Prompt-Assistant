@@ -192,12 +192,12 @@ Para continuar con la optimización y desarrollo de las herramientas, es necesar
 
 # Referencias
 
-https://suno.com/
-https://help.suno.com/en
-https://www.sunometatagcreator.com/metatags-guide
-https://firefly.adobe.com/
-https://helpx.adobe.com/ar/firefly/user-guide.html
-https://www.adobe.com/cc-shared/assets/pdf/business/teams/sdk/firefly-image-model-4-guide.pdf
+- https://suno.com/
+- https://help.suno.com/en
+- https://www.sunometatagcreator.com/metatags-guide
+- https://firefly.adobe.com/
+- https://helpx.adobe.com/ar/firefly/user-guide.html
+- https://www.adobe.com/cc-shared/assets/pdf/business/teams/sdk/firefly-image-model-4-guide.pdf
 
 
 
