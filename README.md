@@ -9,49 +9,50 @@
 
 * **Problema a abordar:** Un cliente quiere lanzar un canal de YouTube con contenido musical en formato “radio en vivo”. Para esto necesita música original y una imagen de portada, que también servirá como primer frame de un video generado con IA. El género elegido para uno de los videos es Synthwave, con influencias de subgéneros como Darkwave y Chillwave, entre otros. Todas las canciones deben ser instrumentales, ya que la finalidad es acompañar momentos de concentración, estudio o trabajo.
 
-**Propuesta de solución** 
+* **Propuesta de solución:** Se utilizarán los chatbots para generar los prompts avanzados de los modelos. Esto permite agilizar los procesos de producción y abaratar los costos de la misma ya que podemos ingresar prompts sencillos que luego serán analizados y mejorados por el modelo. Cada prompt se escribirá primero en español y luego se traducirá al inglés, de manera que el modelo interprete mejor las instrucciones. Para este proceso podemos usar un modelo vía web en lugar de API, ya que lo que necesitamos ingresar en el chatbot puede resolverse directamente gracias a su entrenamiento previo.
 
-Se utilizarán los chatbots para generar los prompts avanzados de los modelos. Esto permite agilizar los procesos de producción y abaratar los costos de la misma ya que podemos ingresar prompts sencillos que luego serán analizados y mejorados por el modelo. Cada prompt se escribirá primero en español y luego se traducirá al inglés, de manera que el modelo interprete mejor las instrucciones. Para este proceso podemos usar un modelo vía web en lugar de API, ya que lo que necesitamos ingresar en el chatbot puede resolverse directamente gracias a su entrenamiento previo.
-
+---
 
 **Prompt para utilizar el chatbot destinado a Suno AI**
 
 * Prompt original en español (hecho por usuario):
 
-*“Desarrolla una canción instrumental de género Synthwave. Puedes mezclar con subgéneros como el Darkwave o Chillwave. Describe la instrumentación propia del género la cual le da la estética sonora. Utiliza el campo ‘Lyrics’ para la estructura de la canción y luego continúa con la descripción correspondiente para para los campos ‘Style’, ‘Exclude Style’, ‘Weirdness’ y ‘Style Influence’.” (99 tokens).*
+> *“Desarrolla una canción instrumental de género Synthwave. Puedes mezclar con subgéneros como el Darkwave o Chillwave. Describe la instrumentación propia del género la cual le da la estética sonora. Utiliza el campo ‘Lyrics’ para la estructura de la canción y luego continúa con la descripción correspondiente para para los campos ‘Style’, ‘Exclude Style’, ‘Weirdness’ y ‘Style Influence’.” (99 tokens).*
 
   Aclaración: Cabe destacar que para redactar prompts con más detalles y descripciones, es necesario contar con saberes previos de producción musical y entender cómo interpreta Suno las instrucciones ya que el modelo se encuentra en constante actualización. Para fines prácticos del trabajo, se utilizarón prompts sencillos para mejor entendimiento de la funcionalidad de los chatbots.
 
 * Prompt traducido al inglés (respuesta de la IA):
 
-  *“Develop an instrumental song in the Synthwave genre. You can mix in subgenres such as Darkwave or Chillwave. Describe the instrumentation typical of the genre that gives it its sonic aesthetic. Use the field ‘Lyrics’ for the structure of the song and then continue with the corresponding description for the fields ‘Style’, ‘Exclude Style’, ‘Weirdness’, and ‘Style Influence’.” (79 tokens).*
+  > *“Develop an instrumental song in the Synthwave genre. You can mix in subgenres such as Darkwave or Chillwave. Describe the instrumentation typical of the genre that gives it its sonic aesthetic. Use the field ‘Lyrics’ for the structure of the song and then continue with the corresponding description for the fields ‘Style’, ‘Exclude Style’, ‘Weirdness’, and ‘Style Influence’.” (79 tokens).*
 
 * Prompt optimizado en cantidad de tokens (para los chatbots TKO) en inglés:
 
-  *“Create an instrumental Synthwave track, mixing Darkwave or Chillwave elements. Describe the genre’s key instruments that shape its sound. Use the ‘Lyrics’ field for song structure, then add descriptions for ‘Style’, ‘Exclude Style’, ‘Weirdness’, and ‘Style Influence’.” (59 tokens).*
+  > *“Create an instrumental Synthwave track, mixing Darkwave or Chillwave elements. Describe the genre’s key instruments that shape its sound. Use the ‘Lyrics’ field for song structure, then add descriptions for ‘Style’, ‘Exclude Style’, ‘Weirdness’, and ‘Style Influence’.” (59 tokens).*
 
+---
   
 **Prompt para chatbot de Adobe Firefly Image 4**
 
 * Prompt en español (hecho por usuario):
 
-*“Desarrolla un prompt para generar una imágen estilo Synthwave, utilizando la paleta de colores más usual (magenta, cian, violeta, azul y rojo). La imágen debe ser una ciudad futurista adaptada al estilo mencionado. Describe las características técnicas necesarias para respetar la estética que se quiere representar”. (79 tokens).*
+> *“Desarrolla un prompt para generar una imágen estilo Synthwave, utilizando la paleta de colores más usual (magenta, cian, violeta, azul y rojo). La imágen debe ser una ciudad futurista adaptada al estilo mencionado. Describe las características técnicas necesarias para respetar la estética que se quiere representar”. (79 tokens).*
 
 * Prompt traducido al inglés (respuesta de la IA):
 
-*“Develop a prompt to generate a Synthwave-style image, using the most common color palette (magenta, cyan, violet, blue, and red). The image should depict a futuristic city adapted to this style. Describe the technical features required to maintain the intended aesthetic.” (53 tokens).*
+> *“Develop a prompt to generate a Synthwave-style image, using the most common color palette (magenta, cyan, violet, blue, and red). The image should depict a futuristic city adapted to this style. Describe the technical features required to maintain the intended aesthetic.” (53 tokens).*
 
 * Prompt optimizado en cantidad de tokens (para los chatbots TKO) en inglés:
 
-*“Synthwave futuristic city, neon lights, grid streets, retro skyline, glowing magenta cyan violet blue red, high contrast, cinematic.” (27 tokens).*
-  
+> *“Synthwave futuristic city, neon lights, grid streets, retro skyline, glowing magenta cyan violet blue red, high contrast, cinematic.” (27 tokens).*
+
+---
 
 * Viabilidad del proyecto: El proyecto es posible de realizar ya que al contar con el acceso a los modelos, es posible testear y optimizar a los mismos para que respondan la manera más eficiente. Dichos modelos ya eran utilizados previamente para trabajar, por lo que esta herramienta busca optimizar los tiempos y mejorar los resultados.
-
 
 # Objetivo
 
   El proyecto tiene como finalidad optimizar los tiempos en el desarrollo de prompts avanzados para los modelos utilizados. Esto significa que a partir de un prompt sencillo el modelo nos arroja un prompt avanzado de acuerdo a las indicaciones que se les han otorgado en los distintos datasets. Esto permite reducir los tiempos de producción significativamente y obtener mejores resultados.
+
 
 
 # Metodología
