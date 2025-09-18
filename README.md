@@ -1,7 +1,7 @@
 # Media Prompt Assistant
   
   'Media Prompt Assistant' es un proyecto de desarrollo de chatbots especializados en generar prompts avanzados para los modelos Suno AI y Adobe Firefly Image 4. Los mismos funcionan a partir de una API Key de Gemini proporcionada por el usuario en un archivo .env para comunicarse con el modelo.
-  El objetivo de los mismos consiste en arrojar prompts avanzados a partir de prompts sencillos tomando como referencia la base de datos (dataset) cargada previamente. Existen 2 versiones: una para utilizar la API Key free de Gemini, y otra optimizada en tokens (versión 'TKO') para utilizar la API Key de pago. Ambas versiones están disponibles tanto para el chatbot de Suno AI como el de Adobe Firefly Image 4.
+  El objetivo de los mismos consiste en arrojar prompts avanzados a partir de prompts sencillos tomando como referencia la base de datos (*dataset*) cargada previamente. Existen 2 versiones: una para utilizar la API Key free de Gemini, y otra optimizada en tokens (versión 'TKO') para utilizar la API Key de pago. Ambas versiones están disponibles tanto para el chatbot de Suno AI como el de Adobe Firefly Image 4.
 
 # Introducción
 
@@ -47,17 +47,17 @@
 
 ---
 
-* Viabilidad del proyecto: El proyecto es posible de realizar ya que al contar con el acceso a los modelos, es posible testear y optimizar a los mismos para que respondan la manera más eficiente. Dichos modelos ya eran utilizados previamente para trabajar, por lo que esta herramienta busca optimizar los tiempos y mejorar los resultados.
+* Viabilidad del proyecto: El proyecto es factible de realizar ya que al contar con el acceso a los modelos se pueden testear y optimizar a los chatbots para que respondan de la manera más eficiente y precisa. Dichos modelos ya eran utilizados previamente para trabajar, por lo que esta herramienta busca optimizar los tiempos de trabajo y mejorar los resultados.
 
 # Objetivo
 
-  El proyecto tiene como finalidad optimizar los tiempos en el desarrollo de prompts avanzados para los modelos utilizados. Esto significa que a partir de un prompt sencillo el modelo nos arroja un prompt avanzado de acuerdo a las indicaciones que se les han otorgado en los distintos datasets. Esto permite reducir los tiempos de producción significativamente y obtener mejores resultados.
+  El proyecto tiene como finalidad optimizar los tiempos en el desarrollo de prompts avanzados para los modelos utilizados. Esto significa que a partir de un prompt sencillo el modelo nos arroja un prompt avanzado de acuerdo a las indicaciones que se les han otorgado en los distintos *datasets*. Esto permite reducir tanto los tiempos de trabajo como los costos de la producción significativamente y obtener mejores resultados.
 
 
 
 # Metodología
 
-A partir de los prompts de salida avanzados en los chatbots generados en base a los prompts sencillos que se presentan el apartado de *"Propuesta de solución"*, se introducen los prompts para generar los contenidos multimedia requeridos en el proyecto. Para los resultados obtenidos se utilizarón los chatbots en su versión de Gemini API free.
+A partir de los prompts de salida avanzados en los chatbots generados en base a los prompts sencillos que se presentan el punto de *"Propuesta de solución"*, se introducen los prompts para generar los contenidos multimedia requeridos en el proyecto. Para los resultados obtenidos se utilizarón los chatbots en su versión de Gemini API free.
 
 ---
 
@@ -176,7 +176,7 @@ Para generar la imagen, tomamos el prompt principal y luego podemos guiarnos con
 
 # Técnicas de Fast Prompting
 
-  La técnica aplicada para el uso de los chatbots será 'Zero Prompt Shooting', la cual es posible gracias al dataset cargado previamente, sin necesidad de explicarle al modelo cómo debe responder. Para lograr esto, se utilizó la técnica de 'Few Prompt Shooting' dentro del conjunto de datasets para ajustar el comportamiento del modelo, brindandole ejemplos de cómo el modelo interpreta los prompts y qué particularidades tiene cada uno al momento de utiizar cada modelo.
+  La técnica aplicada para el uso de los chatbots será 'Zero Prompt Shooting', la cual es posible gracias al conjunto de *datasets* cargados previamente, sin necesidad de explicarle al modelo cómo debe responder. Para lograr esto, se utilizó la técnica de 'Few Prompt Shooting' dentro del conjunto de *datasets* para que el modelo (Gemini en este caso) sepa estructurar y organizar el prompt de salida, a partir de ejemplos sobre cómo el modelo interpreta los prompts y qué especificaciones tiene cada uno.
 
 
 # Implementación
@@ -185,11 +185,11 @@ Para generar la imagen, tomamos el prompt principal y luego podemos guiarnos con
 
 # Resultados
 
-Si bien el uso de los chatbots contribuye a generar entradas más complejas a partir de prompts sencillos, es preciso aclarar que a pesar de que los resultados que arroja nos permiten generar los archivos multimedia, es posible que necesitemos iterar el prompt para que la salida del modelo se adapte mejor a nuestras necesidades. Si el resultado satisface parcialmente nuestras necesidades, podemos intervenir en manera manual en el prompt ajustandolo a nuestras necesidades.
+Si bien el uso de los chatbots contribuye a generar entradas más complejas a partir de prompts sencillos, es preciso aclarar que a pesar de que los resultados que arroja nos permiten generar los archivos multimedia, es posible que necesitemos iterar el prompt para que la salida del modelo se adapte mejor a nuestras necesidades. Si el resultado satisface parcialmente nuestras necesidades, podemos intervenir de manera manual en el prompt ajustandolo a nuestras necesidades.
 
 # Conclusiones
 
-Para continuar con la optimización y desarrollo de las herramientas, es necesario revisar los datasets correspondientes a cada chatbot para asegurarnos de que los prompts que genera sean factibles de utilizar y no 'alucine' parámetros. En el caso del chatbot para Adobe Firefly Image 4 se puede ver que algunas de las características que arroja para optimizar nuestro prompt no están disponibles en el modelo aunque nos sirve como guía para seleccionar los parámetros que sí se encuentran en el modelo. Con respecto al chatbot de Suno AI hay algunas palabras o características que las omite (por ejemplo, [Rain SFX] ), por lo cual es necesario revisar los datasets y continuar con la investigación y desarrollo.
+Para continuar con la optimización y desarrollo de las herramientas, es necesario revisar los *datasets* correspondientes a cada chatbot para asegurarnos de que los prompts que genera sean factibles de utilizar y no 'alucine' parámetros. En el caso del chatbot para Adobe Firefly Image 4 se puede ver que algunas de las características que arroja para optimizar nuestro prompt no están disponibles en el modelo aunque nos sirve como guía para seleccionar los parámetros que sí se encuentran en el modelo. A su vez, es necesario optimizar los *datasets* para que no mezcle idiomas entre el español e inglés en la justificación de la toma de desiciones. Con respecto al chatbot de Suno AI hay algunas palabras o características que las omite (por ejemplo, [Rain SFX] ), por lo cual es necesario revisar los *datasets* y continuar con la investigación y desarrollo.
 
 # Referencias
 
