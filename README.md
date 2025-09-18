@@ -19,7 +19,7 @@
 
 > *“Desarrolla una canción instrumental de género Synthwave. Puedes mezclar con subgéneros como el Darkwave o Chillwave. Describe la instrumentación propia del género la cual le da la estética sonora. Utiliza el campo ‘Lyrics’ para la estructura de la canción y luego continúa con la descripción correspondiente para para los campos ‘Style’, ‘Exclude Style’, ‘Weirdness’ y ‘Style Influence’.” (99 tokens).*
 
-  Aclaración: Cabe destacar que para redactar prompts con más detalles y descripciones, es necesario contar con saberes previos de producción musical y entender cómo interpreta Suno las instrucciones ya que el modelo se encuentra en constante actualización. Para fines prácticos del trabajo, se utilizarón prompts sencillos para mejor entendimiento de la funcionalidad de los chatbots.
+  Aclaración: Cabe destacar que para redactar prompts con más detalles y descripciones, es necesario contar con saberes previos de producción musical y entender cómo interpreta Suno las instrucciones ya que el modelo se encuentra en constante actualización. Para fines prácticos del trabajo, se utilizaron prompts sencillos para mejor entendimiento de la funcionalidad de los chatbots.
 
 * Prompt traducido al inglés (respuesta de la IA):
 
