@@ -3,7 +3,6 @@
   'Media Prompt Assistant' es un proyecto de desarrollo de chatbots especializados en generar prompts avanzados para los modelos Suno AI y Adobe Firefly Image 4. Los mismos funcionan a partir de una API Key de Gemini proporcionada por el usuario en un archivo .env para comunicarse con el modelo.
   El objetivo de los mismos consiste en arrojar prompts avanzados a partir de prompts sencillos tomando como referencia la base de datos (dataset) cargada previamente. Existen 2 versiones: una para utilizar la API Key free de Gemini, y otra optimizada en tokens (versión 'TKO') para utilizar la API Key de pago. Ambas versiones están disponibles tanto para el chatbot de Suno AI como el de Adobe Firefly Image 4.
 
-
 # Introducción
 
 * **Nombre del proyecto:** Media Prompt Assistant
